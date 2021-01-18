@@ -26,4 +26,4 @@ client.on('ready', () => {
     console.log("Lancé");
 });
 
-client.login("ODAwNzYzNDAzMDUxMzM1NzYz.YAW3CA.n6AEhR3k1mmksr0kQN8N-3CyCH8");
+client.login(process.env.TOKEN);
